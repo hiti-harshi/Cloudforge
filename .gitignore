@@ -1,15 +1,14 @@
 # Python
-.venv/
 __pycache__/
 *.pyc
+.venv/
+.env
 
 # Terraform
 .terraform/
 *.tfstate
 *.tfstate.*
-
-# Environment variables
-.env
+.terraform.lock.hcl
 
 # SSH keys
 *.pem
