@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CloudForge Lab</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+            ☁ CloudForge
+        </div>
+
+        <div class="menu">
+
+            <a href="index.html">Home</a>
+
+            <a href="dashboard.html">Dashboard</a>
+
+            <a href="documentation.html">Documentation</a>
+
+        </div>
+
+    </nav>
+
+    <section class="lab-page">
+
+        <h1>Ubuntu Practice Lab</h1>
+
+        <p class="subtitle">
+            Launch your Ubuntu cloud environment on AWS.
+        </p>
+
+        <div class="lab-box">
+
+            <button id="launchBtn" class="btn">
+                🚀 Launch Lab
+            </button>
+
+            <button id="destroyBtn" class="btn destroy">
+                🗑 Destroy Lab
+            </button>
+
+            <hr>
+
+            <h3>Status</h3>
+
+            <p id="status">
+                Not Created
+            </p>
+
+            <h3>Public IP</h3>
+
+            <p id="ip">
+                -
+            </p>
+
+            <h3>Public DNS</h3>
+
+            <p id="dns">
+                -
+            </p>
+
+            <h3>SSH Command</h3>
+
+            <pre id="ssh">
+-
+            </pre>
+
+            <button id="copyBtn" class="btn copy">
+                📋 Copy SSH Command
+            </button>
+
+            <hr>
+
+            <h2>Lab Information</h2>
+
+            <div class="info-grid">
+
+                <div class="info-card">
+                    <h3>Operating System</h3>
+                    <p>Ubuntu 24.04 LTS</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Cloud Provider</h3>
+                    <p>AWS EC2</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Instance Type</h3>
+                    <p>t3.micro</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Region</h3>
+                    <p>ap-south-2 (Hyderabad)</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

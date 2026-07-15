@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Environment variables
+.env
+
+# SSH keys
+*.pem
+
+# VS Code
+.vscode/
